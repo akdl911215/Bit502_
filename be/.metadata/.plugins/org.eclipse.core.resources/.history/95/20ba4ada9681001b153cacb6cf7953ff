@@ -1,0 +1,8 @@
+package com.example.demo.article.domain;
+
+import org.springframework.stereotype.Component;
+
+@Component @
+public class Aticle {
+
+}

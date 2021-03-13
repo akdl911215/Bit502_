@@ -1,0 +1,8 @@
+package com.example.demo.zzz.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class BetaServiceImpl implements BetaServcie {
+
+}

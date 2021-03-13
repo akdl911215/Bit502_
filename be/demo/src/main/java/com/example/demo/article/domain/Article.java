@@ -1,10 +1,27 @@
 package com.example.demo.article.domain;
 
-import org.springframework.stereotype.Component;
+import javax.persistence.*;
 
-import lombok.Data;
+@Entity
+@Table(name = "articles")
 
-@Component @Data
 public class Article {
-
+	
+	@Id
+	@GeneratedValue
+	
+	@Column(name = "artic_no")
+	private long articNo;
+	
+	@Column(name = "title")
+	private String title;
+	
+	@Column(name = "writer")
+	private String writer;
+	
+	@Column(name = "reg_data")
+	private long regDate;
+	
+	@Column(name = "view_count")
+	private long viewCount;
 }

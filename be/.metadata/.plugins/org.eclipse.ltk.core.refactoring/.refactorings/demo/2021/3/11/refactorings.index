@@ -39,3 +39,30 @@
 1615447742869	Delete element
 1615447744341	Delete element
 1615447745469	Delete element
+1615452912729	Delete element
+1615452920085	Delete element
+1615459419920	Delete element
+1615459422298	Delete element
+1615470821701	Rename type 'Article'
+1615471932925	Delete element
+1615471934291	Delete element
+1615471935448	Delete element
+1615471937572	Delete element
+1615471940864	Delete element
+1615471941863	Delete element
+1615471943596	Delete element
+1615471945295	Delete element
+1615472252232	Rename type 'DomainController'
+1615472256187	Rename type 'Domain'
+1615472262019	Rename type 'DomainDto'
+1615536494299	Move compilation unit
+1615536505186	Move compilation units
+1615536514000	Move compilation units
+1615536520214	Move compilation units
+1615536542601	Delete element
+1615536543935	Delete element
+1615536544920	Delete element
+1615536545902	Delete element
+1615537152247	Rename type 'CommonController'
+1615537408818	Rename type 'SecurityService'
+1615537416607	Rename type 'SecurityController'

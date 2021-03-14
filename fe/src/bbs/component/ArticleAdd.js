@@ -12,7 +12,7 @@ export class ArticleAdd extends React.Component {
     }
 
     doSubmit (e) {
-        window.alert('전송: ' + this.state.value)
+        window.alert('생성 완료: ' + this.state.value)
         e.prventDefault()
     }
    
@@ -28,7 +28,7 @@ export class ArticleAdd extends React.Component {
         value={this.state.value}
         onChange={doChange} />
 
-        <input type='submit' value='전송' />
+        <input type='submit' value='생성' />
         </form>
         )
     }

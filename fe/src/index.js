@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ArticleAdd from './bbs/component/ArticleAdd';
+import ArticleDetail from './bbs/component/ArticleDetail';
+import ArticleEdit from './bbs/component/ArticleEdit';
+import ArticleList from './bbs/component/ArticleList';
+import UserEdit from './uss/component/UserEdit';
+import UserList from './uss/component/UserList';
+import UserDetail from './uss/component/UserDetail';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ArticleAdd />
+    <UserDetail />
   </React.StrictMode>,
   document.getElementById('root')
 );

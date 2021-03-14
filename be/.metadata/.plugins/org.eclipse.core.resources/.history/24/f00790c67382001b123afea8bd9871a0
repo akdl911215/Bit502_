@@ -1,0 +1,12 @@
+package com.example.demo.article.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.example.demo.article.domain.ArticleDto;
+
+@Controller
+public class ArticleController {
+	@Autowired ArticleDto artice;
+
+}

@@ -4,11 +4,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.demo.bbs.domain.Article;
 
-interface UserCustomRepositoy{
+interface ArticleCustomRepository{
 	
 }
 
-public interface ArticleRepository extends JpaRepository<Article, Long> ,
-											UserCustomRepositoy{
+public interface ArticleRepository extends JpaRepository<Article, Long>,
+										    ArticleCustomRepository{
 
 }

@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ArticleDetail from './bbs/component/ArticleDetail';
-import ArticleEdit from './bbs/component/ArticleEdit';
-import ArticleList from './bbs/component/ArticleList';
-import UserEdit from './uss/component/UserEdit';
-import UserList from './uss/component/UserList';
-import UserDetail from './uss/component/UserDetail';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserDetail />
+      <BrowserRouter>
+      <App />
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

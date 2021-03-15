@@ -1,19 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import { Component, Fragment } from 'react';
-//import { BrowserRouter as Router } from 'react-router-dom'
+import React, {useState} from 'react'
+import Counter from './cmm/container/Counter'
+import Login from './sec/container/Login'
+import SignUp from './uss/container/SignUp'
+import Home from './cmm/container/Home'
+import {Route} from 'react-router-dom'
 
-// var pow = function (x) { return x * x; };
-// contst pow = x { x * x;}
-
-const App = () => 
-  (
-    <>
-      <h1>홈페이지</h1>
-      <button>회원가입</button>
-      <button>로그인</button>
-    </>
-  )
-
-
+const App = () => {
+  return(<>
+  <Route path='/' component={Home} exact/>
+  <Route path='/Counter' component={Counter}/>
+  <Route path='/Login' component={Login}/>
+  <Route path='SignUp' component={SignUp}/>
+  </>)
+}
 export default App

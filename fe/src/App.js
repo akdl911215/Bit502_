@@ -8,9 +8,9 @@ import {Route} from 'react-router-dom'
 const App = () => {
   return(<>
   <Route path='/' component={Home} exact/>
-  <Route path='/Counter' component={Counter}/>
-  <Route path='/Login' component={Login}/>
-  <Route path='SignUp' component={SignUp}/>
+  <Route path='/Counter' component={Counter}/><br/>
+  <Route path='/Login' component={Login}/><br/>
+  <Route path='/SignUp' component={SignUp}/><br/>
   </>)
 }
 export default App

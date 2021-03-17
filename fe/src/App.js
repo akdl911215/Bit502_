@@ -7,6 +7,7 @@ import {Route} from 'react-router-dom'
 
 const App = () => {
   return(<>
+  
   <Route path='/' component={Home} exact/>
   <Route path='/Counter' component={Counter}/><br/>
   <Route path='/Login' component={Login}/><br/>
